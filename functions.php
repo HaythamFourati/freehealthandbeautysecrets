@@ -13,8 +13,6 @@ function boilerplate_load_assets() {
   wp_enqueue_style('ourmaincss', get_theme_file_uri('/build/index.css'));
 
   // Load Instagram embed script only on the front page where the reel is present.
-  if (is_front_page()) {
-    wp_enqueue_script( 'instagram-embed', '//www.instagram.com/embed.js', array(), null, true );
-  }
+
 }
 add_action('wp_enqueue_scripts', 'boilerplate_load_assets');

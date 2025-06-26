@@ -8,7 +8,7 @@
 
 <section class="bg-dark">
   <div class="container mx-auto">
-    <div class="grid grid-cols-1 lg:grid-cols-5 items-center">
+    <div class="grid grid-cols-1 lg:grid-cols-5 items-center gap-16">
       
       <!-- Left Column: Image -->
       <div class="lg:col-span-2 h-96 lg:h-full">
